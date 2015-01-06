@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Dot files by cassiobotaro</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Dot files</h1>
+        <h2>my dot files to improve productivity on bash.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/cassiobotaro/dot_files/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/cassiobotaro/dot_files/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/cassiobotaro/dot_files" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="dot_files" class="anchor" href="#dot_files" aria-hidden="true"><span class="octicon octicon-link"></span></a>dot_files</h1>
+
+<p>my dot files to improve productivity on ubuntu.</p>
+
+<p><img src="terminal.png" alt="image" title="Terminal"></p>
+
+<h3>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h3>
+
+<p>Copy .bash_aliases, .bash_completion and .bashrc to <code>~/</code> .</p>
+
+<pre><code>cp .bashrc ~/
+cp .bash_aliases ~/
+cp .bash_completion ~/
+</code></pre>
+
+<h4>
+<a id="files" class="anchor" href="#files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Files</h4>
+
+<h3>
+<a id="bash_aliases" class="anchor" href="#bash_aliases" aria-hidden="true"><span class="octicon octicon-link"></span></a>.bash_aliases</h3>
+
+<ul>
+<li>git aliases
+
+<ul>
+<li>cd alias      -   . for each cd .. until max of 3</li>
+<li>apt alias     -   alias for aptget commands
+Example:
+install -&gt; sudo apt-get install
+update  -&gt; sudo apt-get update
+upgrade -&gt; sudo apt-get upgrade</li>
+<li>python utils  -   calendar, server, pydoc, timeit, profile</li>
+<li>git alias     -   git commands
+Example:
+ga   -&gt; git add
+gcl  -&gt; git clone
+gc   -&gt; git commit
+gco  -&gt; git checkout</li>
+<li>tree          -   better directory visualisation</li>
+<li>vagrant       -   vagrant alias
+Example:
+vup  -&gt; vagrant up
+vssh -&gt; vagrant ssh
+vh   -&gt; vagrant halt</li>
+<li>kernel clean  -   remove older kernel using kernelcleanup</li>
+</ul>
+</li>
+</ul>
+
+<p>To list all aliases type <code>alias</code> at the terminal.</p>
+
+<h3>
+<a id="bash_completion" class="anchor" href="#bash_completion" aria-hidden="true"><span class="octicon octicon-link"></span></a>bash_completion</h3>
+
+<p>Git, django, vagrant and pip completions.</p>
+
+<h3>
+<a id="bashrc" class="anchor" href="#bashrc" aria-hidden="true"><span class="octicon octicon-link"></span></a>bashrc</h3>
+
+<p>Better ps1 with color and git status.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
