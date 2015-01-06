@@ -3,6 +3,9 @@ dot_files
 
 my dot files to improve productivity on ubuntu.
 
+
+![image](terminal.png "Terminal")
+
 ###Install
 
 Copy .bash_aliases, .bash_completion and .bashrc to `~/` .
@@ -47,4 +50,3 @@ Git, django, vagrant and pip completions.
 
 Better ps1 with color and git status.
 
-TODO: picture here
