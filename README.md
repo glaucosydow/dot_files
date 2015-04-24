@@ -13,6 +13,7 @@ Copy .bash_aliases, .bash_completion and .bashrc to `~/` .
 	cp .bashrc ~/
 	cp .bash_aliases ~/
 	cp .bash_completion ~/
+	. ~/.bashrc
 
 ####Files
 
