@@ -118,14 +118,6 @@ alias root='sudo bash -l'
 alias shutdown='sudo shutdown -h now'
 alias kernelcleanup="dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs sudo apt-get -y purge"                                         # remove all unused Linux Kernel headers, images & modules
 
-
-alias documentos='cd ~/Documentos'
-alias downloads='cd ~/Downloads'
-alias home='cd ~/'
-alias imagens='cd ~/Imagens'
-alias musica='cd ~/Música'
-alias vídeos='cd ~/Vídeos'
-
 # python aliases
 alias venv='python3 -m venv'
 alias serve='python3 -m http.server'
