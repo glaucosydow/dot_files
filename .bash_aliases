@@ -126,6 +126,6 @@ alias pytime='python3 -m timeit'
 alias pyprof='python3 -m profile'
 alias jcat='python3 -m json.tool'
 alias cal='python3 -m calendar'
-alias py2path='python -m site'
+alias py2path='python2 -m site'
 alias py3path='python3 -m site'
 
